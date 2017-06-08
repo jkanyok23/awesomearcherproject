@@ -20,7 +20,7 @@ $hs_context_json = json_encode($hs_context);
 $str_post = "firstname=" . urlencode($firstName) 
     . "&lastname=" . urlencode($lastName) 
     . "&email=" . urlencode($username) 
-    . "&phone=" . urlencode($phonenumber) 
+    . "&phone=" . urlencode($phoneNumber) 
     . "&company=" . urlencode($company) 
     . "&hs_context=" . urlencode($hs_context_json); 
 
